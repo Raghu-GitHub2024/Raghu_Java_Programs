@@ -26,7 +26,7 @@ public class LaunchQuit
 		conti.click();
 		
 		WebElement pwd=driver.findElement(By.xpath("//input[@id=\"ap_password\"]"));
-		pwd.sendKeys("Amazon$24");
+		pwd.sendKeys("*******");
 		
 		WebElement signin = driver.findElement(By.xpath("//input[@id='signInSubmit']"));
 		signin.click();
